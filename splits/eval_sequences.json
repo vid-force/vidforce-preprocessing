@@ -1,0 +1,3482 @@
+{
+ "meta": {
+  "set": "Eval, the evaluation set of the paper",
+  "n_sequences": 99,
+  "by_embodiment": {
+   "gripper": 48,
+   "hand": 51
+  },
+  "by_partition": {
+   "held_out_interaction": 52,
+   "unseen_scene": 47
+  },
+  "n_human_with_paired_gripper": 40
+ },
+ "records": {
+  "bathroom_2__1-5__window_0__gripper__iphone_1": {
+   "scene": "bathroom_2",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "bathroom_2__1-5__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open white toilet lid",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.245,
+   "contact_uv": [
+    567.14,
+    233.11
+   ],
+   "object_window": {
+    "center_uv": [
+     441.5,
+     233.5
+    ],
+    "half_extents_px": [
+     198.5,
+     198.5
+    ]
+   }
+  },
+  "bathroom_2__1-5__window_0__gripper__iphone_2": {
+   "scene": "bathroom_2",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "bathroom_2__1-5__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open white toilet lid",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.245,
+   "contact_uv": [
+    338.69,
+    206.88
+   ],
+   "object_window": {
+    "center_uv": [
+     339.0,
+     207.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bathroom_2__1-5__window_0__hand__iphone_1": {
+   "scene": "bathroom_2",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "bathroom_2__1-5__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "bathroom_2__1-5__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 5,
+   "span_length_m": 0.406,
+   "contact_uv": [
+    449.19,
+    353.63
+   ],
+   "object_window": {
+    "center_uv": [
+     443.5,
+     283.5
+    ],
+    "half_extents_px": [
+     196.5,
+     196.5
+    ]
+   }
+  },
+  "bathroom_2__1-5__window_0__hand__iphone_2": {
+   "scene": "bathroom_2",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "bathroom_2__1-5__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "bathroom_2__1-5__window_0__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 5,
+   "span_length_m": 0.406,
+   "contact_uv": [
+    338.32,
+    259.98
+   ],
+   "object_window": {
+    "center_uv": [
+     338.0,
+     260.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bathroom_2__1-5__window_2__gripper__iphone_2": {
+   "scene": "bathroom_2",
+   "trial": "1-5",
+   "window": "window_2",
+   "episode": "bathroom_2__1-5__window_2",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open upper drawer of cabinet next to sink",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.232,
+   "contact_uv": [
+    287.12,
+    198.18
+   ],
+   "object_window": {
+    "center_uv": [
+     287.0,
+     198.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_1__1-8__window_0__gripper__iphone_1": {
+   "scene": "bedroom_1",
+   "trial": "1-8",
+   "window": "window_0",
+   "episode": "bedroom_1__1-8__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open left cabinet door of top cabinet above mirror",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.433,
+   "contact_uv": [
+    149.05,
+    71.74
+   ],
+   "object_window": {
+    "center_uv": [
+     149.0,
+     128.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_1__1-8__window_0__hand__iphone_1": {
+   "scene": "bedroom_1",
+   "trial": "1-8",
+   "window": "window_0",
+   "episode": "bedroom_1__1-8__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "bedroom_1__1-8__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 10,
+   "span_length_m": 0.429,
+   "contact_uv": [
+    117.99,
+    71.92
+   ],
+   "object_window": {
+    "center_uv": [
+     128.0,
+     128.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_4__1-11__window_0__gripper__iphone_1": {
+   "scene": "bedroom_4",
+   "trial": "1-11",
+   "window": "window_0",
+   "episode": "bedroom_4__1-11__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open play kitchen upper cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.349,
+   "contact_uv": [
+    132.07,
+    159.32
+   ],
+   "object_window": {
+    "center_uv": [
+     132.0,
+     159.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_4__1-11__window_10__gripper__iphone_1": {
+   "scene": "bedroom_4",
+   "trial": "1-11",
+   "window": "window_10",
+   "episode": "bedroom_4__1-11__window_10",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open large baby blue drawer box",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.23,
+   "contact_uv": [
+    477.41,
+    273.86
+   ],
+   "object_window": {
+    "center_uv": [
+     477.0,
+     274.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_4__1-11__window_10__gripper__iphone_2": {
+   "scene": "bedroom_4",
+   "trial": "1-11",
+   "window": "window_10",
+   "episode": "bedroom_4__1-11__window_10",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open large baby blue drawer box",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.23,
+   "contact_uv": [
+    373.17,
+    289.43
+   ],
+   "object_window": {
+    "center_uv": [
+     373.0,
+     289.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_4__12-14__window_0__gripper__iphone_2": {
+   "scene": "bedroom_4",
+   "trial": "12-14",
+   "window": "window_0",
+   "episode": "bedroom_4__12-14__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open grey chest lid",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.987,
+   "contact_uv": [
+    227.13,
+    204.17
+   ],
+   "object_window": {
+    "center_uv": [
+     227.0,
+     204.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_4__12-14__window_0__hand__iphone_2": {
+   "scene": "bedroom_4",
+   "trial": "12-14",
+   "window": "window_0",
+   "episode": "bedroom_4__12-14__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "bedroom_4__12-14__window_0__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 6,
+   "span_length_m": 0.34,
+   "contact_uv": [
+    258.02,
+    200.19
+   ],
+   "object_window": {
+    "center_uv": [
+     258.0,
+     200.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_6__1-5__window_0__gripper__iphone_1": {
+   "scene": "bedroom_6",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "bedroom_6__1-5__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open white left wardrobe sliding door",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.459,
+   "contact_uv": [
+    134.6,
+    260.22
+   ],
+   "object_window": {
+    "center_uv": [
+     200.0,
+     260.0
+    ],
+    "half_extents_px": [
+     200.0,
+     200.0
+    ]
+   }
+  },
+  "bedroom_6__1-5__window_0__gripper__iphone_2": {
+   "scene": "bedroom_6",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "bedroom_6__1-5__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open white left wardrobe sliding door",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.459,
+   "contact_uv": [
+    198.9,
+    79.23
+   ],
+   "object_window": {
+    "center_uv": [
+     199.0,
+     128.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_6__1-5__window_0__hand__iphone_1": {
+   "scene": "bedroom_6",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "bedroom_6__1-5__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "bedroom_6__1-5__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 9,
+   "span_length_m": 0.412,
+   "contact_uv": [
+    153.95,
+    255.63
+   ],
+   "object_window": {
+    "center_uv": [
+     177.5,
+     255.5
+    ],
+    "half_extents_px": [
+     177.5,
+     177.5
+    ]
+   }
+  },
+  "bedroom_8__1-6__window_1__gripper__iphone_2": {
+   "scene": "bedroom_8",
+   "trial": "1-6",
+   "window": "window_1",
+   "episode": "bedroom_8__1-6__window_1",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close greyish-white ikea closet left door",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.797,
+   "contact_uv": [
+    177.51,
+    234.02
+   ],
+   "object_window": {
+    "center_uv": [
+     178.0,
+     234.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "bedroom_8__1-6__window_1__hand__iphone_1": {
+   "scene": "bedroom_8",
+   "trial": "1-6",
+   "window": "window_1",
+   "episode": "bedroom_8__1-6__window_1",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "bedroom_8__1-6__window_1__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 3,
+   "span_length_m": 0.306,
+   "contact_uv": [
+    313.62,
+    154.44
+   ],
+   "object_window": {
+    "center_uv": [
+     314.0,
+     154.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "fridge_1__1-4__window_0__gripper__iphone_2": {
+   "scene": "fridge_1",
+   "trial": "1-4",
+   "window": "window_0",
+   "episode": "fridge_1__1-4__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open silver fridge door",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.89,
+   "contact_uv": [
+    284.19,
+    204.32
+   ],
+   "object_window": {
+    "center_uv": [
+     284.0,
+     204.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "fridge_1__1-4__window_0__hand__iphone_1": {
+   "scene": "fridge_1",
+   "trial": "1-4",
+   "window": "window_0",
+   "episode": "fridge_1__1-4__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "fridge_1__1-4__window_0__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 11,
+   "span_length_m": 0.829,
+   "contact_uv": [
+    185.42,
+    178.98
+   ],
+   "object_window": {
+    "center_uv": [
+     320.0,
+     240.0
+    ],
+    "half_extents_px": [
+     320.0,
+     240.0
+    ]
+   }
+  },
+  "fridge_1__1-4__window_0__hand__iphone_2": {
+   "scene": "fridge_1",
+   "trial": "1-4",
+   "window": "window_0",
+   "episode": "fridge_1__1-4__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "fridge_1__1-4__window_0__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 11,
+   "span_length_m": 0.829,
+   "contact_uv": [
+    287.63,
+    186.78
+   ],
+   "object_window": {
+    "center_uv": [
+     288.0,
+     187.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "fridge_1__1-4__window_1__gripper__iphone_1": {
+   "scene": "fridge_1",
+   "trial": "1-4",
+   "window": "window_1",
+   "episode": "fridge_1__1-4__window_1",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close silver fridge door",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.653,
+   "contact_uv": [
+    441.4,
+    188.18
+   ],
+   "object_window": {
+    "center_uv": [
+     320.0,
+     240.0
+    ],
+    "half_extents_px": [
+     320.0,
+     240.0
+    ]
+   }
+  },
+  "fridge_1__1-4__window_1__gripper__iphone_2": {
+   "scene": "fridge_1",
+   "trial": "1-4",
+   "window": "window_1",
+   "episode": "fridge_1__1-4__window_1",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close silver fridge door",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.653,
+   "contact_uv": [
+    195.69,
+    170.21
+   ],
+   "object_window": {
+    "center_uv": [
+     196.0,
+     170.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "fridge_1__1-4__window_1__hand__iphone_1": {
+   "scene": "fridge_1",
+   "trial": "1-4",
+   "window": "window_1",
+   "episode": "fridge_1__1-4__window_1",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "fridge_1__1-4__window_1__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 8,
+   "span_length_m": 0.824,
+   "contact_uv": [
+    493.82,
+    175.75
+   ],
+   "object_window": {
+    "center_uv": [
+     350.5,
+     240.0
+    ],
+    "half_extents_px": [
+     289.5,
+     240.0
+    ]
+   }
+  },
+  "fridge_1__1-4__window_1__hand__iphone_2": {
+   "scene": "fridge_1",
+   "trial": "1-4",
+   "window": "window_1",
+   "episode": "fridge_1__1-4__window_1",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "fridge_1__1-4__window_1__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 8,
+   "span_length_m": 0.824,
+   "contact_uv": [
+    253.17,
+    95.54
+   ],
+   "object_window": {
+    "center_uv": [
+     253.0,
+     128.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_15__1-11__window_0__gripper__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "1-11",
+   "window": "window_0",
+   "episode": "kitchen_15__1-11__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open left-edge lower kitchen drawer. FE: handle with 'hook pull' affordance.",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.547,
+   "contact_uv": [
+    111.03,
+    200.61
+   ],
+   "object_window": {
+    "center_uv": [
+     319.5,
+     240.0
+    ],
+    "half_extents_px": [
+     319.5,
+     240.0
+    ]
+   }
+  },
+  "kitchen_15__1-11__window_0__hand__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "1-11",
+   "window": "window_0",
+   "episode": "kitchen_15__1-11__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "kitchen_15__1-11__window_0__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 11,
+   "span_length_m": 0.74,
+   "contact_uv": [
+    108.91,
+    193.79
+   ],
+   "object_window": {
+    "center_uv": [
+     320.0,
+     240.0
+    ],
+    "half_extents_px": [
+     320.0,
+     240.0
+    ]
+   }
+  },
+  "kitchen_15__1-11__window_14__hand__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "1-11",
+   "window": "window_14",
+   "episode": "kitchen_15__1-11__window_14",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "visual check",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 3,
+   "span_length_m": 0.22,
+   "contact_uv": [
+    446.04,
+    194.47
+   ],
+   "object_window": {
+    "center_uv": [
+     446.0,
+     194.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_15__1-11__window_15__hand__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "1-11",
+   "window": "window_15",
+   "episode": "kitchen_15__1-11__window_15",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "other",
+   "object_source": "visual check",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 5,
+   "span_length_m": 0.593,
+   "contact_uv": [
+    508.86,
+    360.07
+   ],
+   "object_window": {
+    "center_uv": [
+     501.5,
+     341.5
+    ],
+    "half_extents_px": [
+     138.5,
+     138.5
+    ]
+   }
+  },
+  "kitchen_15__12-26__window_0__hand__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "12-26",
+   "window": "window_0",
+   "episode": "kitchen_15__12-26__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "visual check",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 11,
+   "span_length_m": 0.45,
+   "contact_uv": [
+    176.13,
+    194.15
+   ],
+   "object_window": {
+    "center_uv": [
+     176.0,
+     194.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_15__12-26__window_14__hand__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "12-26",
+   "window": "window_14",
+   "episode": "kitchen_15__12-26__window_14",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "visual check",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 10,
+   "span_length_m": 0.508,
+   "contact_uv": [
+    230.24,
+    291.87
+   ],
+   "object_window": {
+    "center_uv": [
+     230.0,
+     292.0
+    ],
+    "half_extents_px": [
+     169.0,
+     169.0
+    ]
+   }
+  },
+  "kitchen_15__12-26__window_15__hand__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "12-26",
+   "window": "window_15",
+   "episode": "kitchen_15__12-26__window_15",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "visual check",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 6,
+   "span_length_m": 0.519,
+   "contact_uv": [
+    102.46,
+    300.12
+   ],
+   "object_window": {
+    "center_uv": [
+     168.0,
+     300.0
+    ],
+    "half_extents_px": [
+     168.0,
+     168.0
+    ]
+   }
+  },
+  "kitchen_15__12-26__window_18__hand__iphone_2": {
+   "scene": "kitchen_15",
+   "trial": "12-26",
+   "window": "window_18",
+   "episode": "kitchen_15__12-26__window_18",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "visual check",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 4,
+   "end_i": 10,
+   "span_length_m": 0.585,
+   "contact_uv": [
+    257.84,
+    33.41
+   ],
+   "object_window": {
+    "center_uv": [
+     258.0,
+     177.0
+    ],
+    "half_extents_px": [
+     177.0,
+     177.0
+    ]
+   }
+  },
+  "kitchen_7__1-3-5-7-9__window_0__gripper__iphone_1": {
+   "scene": "kitchen_7",
+   "trial": "1-3-5-7-9",
+   "window": "window_0",
+   "episode": "kitchen_7__1-3-5-7-9__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open white built-in fridge under counter",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.89,
+   "contact_uv": [
+    193.09,
+    159.14
+   ],
+   "object_window": {
+    "center_uv": [
+     265.0,
+     240.0
+    ],
+    "half_extents_px": [
+     265.0,
+     240.0
+    ]
+   }
+  },
+  "kitchen_7__1-3-5-7-9__window_0__hand__iphone_2": {
+   "scene": "kitchen_7",
+   "trial": "1-3-5-7-9",
+   "window": "window_0",
+   "episode": "kitchen_7__1-3-5-7-9__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "refrigerator door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "kitchen_7__1-3-5-7-9__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 11,
+   "span_length_m": 0.545,
+   "contact_uv": [
+    311.52,
+    228.06
+   ],
+   "object_window": {
+    "center_uv": [
+     312.0,
+     228.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_7__1-3-5-7-9__window_6__gripper__iphone_1": {
+   "scene": "kitchen_7",
+   "trial": "1-3-5-7-9",
+   "window": "window_6",
+   "episode": "kitchen_7__1-3-5-7-9__window_6",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open white corner cabinet below counter",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.184,
+   "contact_uv": [
+    433.62,
+    166.09
+   ],
+   "object_window": {
+    "center_uv": [
+     434.0,
+     166.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_7__1-3-5-7-9__window_7__gripper__iphone_1": {
+   "scene": "kitchen_7",
+   "trial": "1-3-5-7-9",
+   "window": "window_7",
+   "episode": "kitchen_7__1-3-5-7-9__window_7",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close white corner cabinet below counter",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.18,
+   "contact_uv": [
+    443.36,
+    161.58
+   ],
+   "object_window": {
+    "center_uv": [
+     443.0,
+     162.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_7__1-3-5-7-9__window_7__hand__iphone_2": {
+   "scene": "kitchen_7",
+   "trial": "1-3-5-7-9",
+   "window": "window_7",
+   "episode": "kitchen_7__1-3-5-7-9__window_7",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "kitchen_7__1-3-5-7-9__window_7__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 9,
+   "span_length_m": 0.65,
+   "contact_uv": [
+    184.31,
+    279.19
+   ],
+   "object_window": {
+    "center_uv": [
+     184.0,
+     279.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_7__2-4-6-8__window_0__gripper__iphone_2": {
+   "scene": "kitchen_7",
+   "trial": "2-4-6-8",
+   "window": "window_0",
+   "episode": "kitchen_7__2-4-6-8__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open upper white kitchen drawer under counter",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.528,
+   "contact_uv": [
+    198.52,
+    116.81
+   ],
+   "object_window": {
+    "center_uv": [
+     199.0,
+     128.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_7__2-4-6-8__window_0__hand__iphone_2": {
+   "scene": "kitchen_7",
+   "trial": "2-4-6-8",
+   "window": "window_0",
+   "episode": "kitchen_7__2-4-6-8__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "kitchen_7__2-4-6-8__window_0__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 15,
+   "span_length_m": 0.596,
+   "contact_uv": [
+    305.9,
+    303.66
+   ],
+   "object_window": {
+    "center_uv": [
+     306.0,
+     304.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_7__2-4-6-8__window_6__gripper__iphone_2": {
+   "scene": "kitchen_7",
+   "trial": "2-4-6-8",
+   "window": "window_6",
+   "episode": "kitchen_7__2-4-6-8__window_6",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open white cabinet below sink",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.455,
+   "contact_uv": [
+    434.85,
+    141.59
+   ],
+   "object_window": {
+    "center_uv": [
+     435.0,
+     142.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "kitchen_7__2-4-6-8__window_7__gripper__iphone_1": {
+   "scene": "kitchen_7",
+   "trial": "2-4-6-8",
+   "window": "window_7",
+   "episode": "kitchen_7__2-4-6-8__window_7",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close white cabinet below sink",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.647,
+   "contact_uv": [
+    403.97,
+    154.12
+   ],
+   "object_window": {
+    "center_uv": [
+     404.0,
+     154.0
+    ],
+    "half_extents_px": [
+     147.0,
+     147.0
+    ]
+   }
+  },
+  "kitchen_7__2-4-6-8__window_7__gripper__iphone_2": {
+   "scene": "kitchen_7",
+   "trial": "2-4-6-8",
+   "window": "window_7",
+   "episode": "kitchen_7__2-4-6-8__window_7",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close white cabinet below sink",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.647,
+   "contact_uv": [
+    326.93,
+    131.55
+   ],
+   "object_window": {
+    "center_uv": [
+     327.5,
+     141.5
+    ],
+    "half_extents_px": [
+     141.5,
+     141.5
+    ]
+   }
+  },
+  "kitchen_7__2-4-6-8__window_7__hand__iphone_2": {
+   "scene": "kitchen_7",
+   "trial": "2-4-6-8",
+   "window": "window_7",
+   "episode": "kitchen_7__2-4-6-8__window_7",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "kitchen_7__2-4-6-8__window_7__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 13,
+   "span_length_m": 0.506,
+   "contact_uv": [
+    322.91,
+    315.32
+   ],
+   "object_window": {
+    "center_uv": [
+     323.0,
+     315.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_0__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_0",
+   "episode": "livingroom_1__1-7__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open leftmost door of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.492,
+   "contact_uv": [
+    73.09,
+    209.55
+   ],
+   "object_window": {
+    "center_uv": [
+     151.5,
+     209.5
+    ],
+    "half_extents_px": [
+     151.5,
+     151.5
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_0__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_0",
+   "episode": "livingroom_1__1-7__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 8,
+   "end_i": 12,
+   "span_length_m": 0.504,
+   "contact_uv": [
+    252.1,
+    253.42
+   ],
+   "object_window": {
+    "center_uv": [
+     252.0,
+     253.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_10__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_10",
+   "episode": "livingroom_1__1-7__window_10",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open second door to the right of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.478,
+   "contact_uv": [
+    448.31,
+    281.09
+   ],
+   "object_window": {
+    "center_uv": [
+     448.5,
+     280.5
+    ],
+    "half_extents_px": [
+     168.5,
+     168.5
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_10__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_10",
+   "episode": "livingroom_1__1-7__window_10",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_10__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 5,
+   "span_length_m": 0.577,
+   "contact_uv": [
+    411.4,
+    277.4
+   ],
+   "object_window": {
+    "center_uv": [
+     411.0,
+     277.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_13__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_13",
+   "episode": "livingroom_1__1-7__window_13",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close right-most of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.247,
+   "contact_uv": [
+    546.25,
+    271.77
+   ],
+   "object_window": {
+    "center_uv": [
+     512.0,
+     272.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_1__gripper__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_1",
+   "episode": "livingroom_1__1-7__window_1",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close leftmost door of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.538,
+   "contact_uv": [
+    186.0,
+    283.87
+   ],
+   "object_window": {
+    "center_uv": [
+     186.0,
+     284.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_2__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_2",
+   "episode": "livingroom_1__1-7__window_2",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open top drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.281,
+   "contact_uv": [
+    193.55,
+    169.1
+   ],
+   "object_window": {
+    "center_uv": [
+     194.0,
+     169.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_2__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_2",
+   "episode": "livingroom_1__1-7__window_2",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_2__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 11,
+   "span_length_m": 0.298,
+   "contact_uv": [
+    182.07,
+    163.26
+   ],
+   "object_window": {
+    "center_uv": [
+     182.0,
+     163.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_2__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_2",
+   "episode": "livingroom_1__1-7__window_2",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_2__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 11,
+   "span_length_m": 0.298,
+   "contact_uv": [
+    342.75,
+    169.68
+   ],
+   "object_window": {
+    "center_uv": [
+     343.0,
+     170.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_3__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_3",
+   "episode": "livingroom_1__1-7__window_3",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close top drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.264,
+   "contact_uv": [
+    142.56,
+    215.31
+   ],
+   "object_window": {
+    "center_uv": [
+     143.0,
+     215.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_3__gripper__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_3",
+   "episode": "livingroom_1__1-7__window_3",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close top drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.264,
+   "contact_uv": [
+    388.84,
+    177.15
+   ],
+   "object_window": {
+    "center_uv": [
+     389.0,
+     177.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_3__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_3",
+   "episode": "livingroom_1__1-7__window_3",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_3__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 9,
+   "span_length_m": 0.297,
+   "contact_uv": [
+    16.7,
+    175.25
+   ],
+   "object_window": {
+    "center_uv": [
+     128.0,
+     175.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_3__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_3",
+   "episode": "livingroom_1__1-7__window_3",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_3__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 9,
+   "span_length_m": 0.297,
+   "contact_uv": [
+    322.2,
+    162.45
+   ],
+   "object_window": {
+    "center_uv": [
+     322.0,
+     162.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_4__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_4",
+   "episode": "livingroom_1__1-7__window_4",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open middle drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.275,
+   "contact_uv": [
+    108.69,
+    204.49
+   ],
+   "object_window": {
+    "center_uv": [
+     128.0,
+     204.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_5__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_5",
+   "episode": "livingroom_1__1-7__window_5",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close middle drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.275,
+   "contact_uv": [
+    160.93,
+    263.83
+   ],
+   "object_window": {
+    "center_uv": [
+     161.0,
+     264.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_5__gripper__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_5",
+   "episode": "livingroom_1__1-7__window_5",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close middle drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.275,
+   "contact_uv": [
+    385.96,
+    223.49
+   ],
+   "object_window": {
+    "center_uv": [
+     386.0,
+     223.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_5__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_5",
+   "episode": "livingroom_1__1-7__window_5",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_5__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 8,
+   "span_length_m": 0.718,
+   "contact_uv": [
+    151.11,
+    251.31
+   ],
+   "object_window": {
+    "center_uv": [
+     151.0,
+     251.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_5__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_5",
+   "episode": "livingroom_1__1-7__window_5",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_5__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 8,
+   "span_length_m": 0.718,
+   "contact_uv": [
+    386.0,
+    211.85
+   ],
+   "object_window": {
+    "center_uv": [
+     386.0,
+     212.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_6__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_6",
+   "episode": "livingroom_1__1-7__window_6",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open bottom drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.282,
+   "contact_uv": [
+    219.19,
+    278.28
+   ],
+   "object_window": {
+    "center_uv": [
+     219.0,
+     278.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_6__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_6",
+   "episode": "livingroom_1__1-7__window_6",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_6__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 8,
+   "span_length_m": 0.321,
+   "contact_uv": [
+    124.5,
+    261.76
+   ],
+   "object_window": {
+    "center_uv": [
+     128.0,
+     262.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_6__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_6",
+   "episode": "livingroom_1__1-7__window_6",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__1-7__window_6__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 8,
+   "span_length_m": 0.321,
+   "contact_uv": [
+    274.87,
+    301.03
+   ],
+   "object_window": {
+    "center_uv": [
+     275.0,
+     301.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_7__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_7",
+   "episode": "livingroom_1__1-7__window_7",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close bottom drawer of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.286,
+   "contact_uv": [
+    80.36,
+    298.23
+   ],
+   "object_window": {
+    "center_uv": [
+     128.0,
+     298.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__1-7__window_9__gripper__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "1-7",
+   "window": "window_9",
+   "episode": "livingroom_1__1-7__window_9",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close third door to the right of right cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.534,
+   "contact_uv": [
+    450.3,
+    220.62
+   ],
+   "object_window": {
+    "center_uv": [
+     450.0,
+     221.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_0__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_0",
+   "episode": "livingroom_1__8-14__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open right-most of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.497,
+   "contact_uv": [
+    360.01,
+    213.2
+   ],
+   "object_window": {
+    "center_uv": [
+     360.0,
+     213.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_0__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_0",
+   "episode": "livingroom_1__8-14__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 7,
+   "span_length_m": 0.318,
+   "contact_uv": [
+    348.76,
+    213.39
+   ],
+   "object_window": {
+    "center_uv": [
+     349.0,
+     213.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_0__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_0",
+   "episode": "livingroom_1__8-14__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 7,
+   "span_length_m": 0.318,
+   "contact_uv": [
+    464.71,
+    243.9
+   ],
+   "object_window": {
+    "center_uv": [
+     465.0,
+     244.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_10__gripper__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_10",
+   "episode": "livingroom_1__8-14__window_10",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open second door to the left of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.542,
+   "contact_uv": [
+    198.32,
+    275.46
+   ],
+   "object_window": {
+    "center_uv": [
+     198.5,
+     275.5
+    ],
+    "half_extents_px": [
+     129.5,
+     129.5
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_13__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_13",
+   "episode": "livingroom_1__8-14__window_13",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "visual check",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 8,
+   "end_i": 13,
+   "span_length_m": 0.438,
+   "contact_uv": [
+    144.94,
+    222.62
+   ],
+   "object_window": {
+    "center_uv": [
+     145.0,
+     223.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_1__gripper__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_1",
+   "episode": "livingroom_1__8-14__window_1",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close right-most of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.524,
+   "contact_uv": [
+    577.24,
+    227.74
+   ],
+   "object_window": {
+    "center_uv": [
+     512.0,
+     228.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_1__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_1",
+   "episode": "livingroom_1__8-14__window_1",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_1__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 5,
+   "span_length_m": 0.547,
+   "contact_uv": [
+    385.09,
+    251.5
+   ],
+   "object_window": {
+    "center_uv": [
+     385.0,
+     251.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_1__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_1",
+   "episode": "livingroom_1__8-14__window_1",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_1__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 5,
+   "span_length_m": 0.547,
+   "contact_uv": [
+    564.17,
+    247.97
+   ],
+   "object_window": {
+    "center_uv": [
+     512.0,
+     248.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_2__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_2",
+   "episode": "livingroom_1__8-14__window_2",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open top drawer of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.28,
+   "contact_uv": [
+    324.3,
+    136.81
+   ],
+   "object_window": {
+    "center_uv": [
+     324.0,
+     137.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_3__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_3",
+   "episode": "livingroom_1__8-14__window_3",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close top drawer of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 1.428,
+   "contact_uv": [
+    264.95,
+    142.75
+   ],
+   "object_window": {
+    "center_uv": [
+     265.5,
+     240.0
+    ],
+    "half_extents_px": [
+     246.5,
+     240.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_3__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_3",
+   "episode": "livingroom_1__8-14__window_3",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_3__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 9,
+   "span_length_m": 0.375,
+   "contact_uv": [
+    263.04,
+    151.44
+   ],
+   "object_window": {
+    "center_uv": [
+     263.0,
+     151.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_3__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_3",
+   "episode": "livingroom_1__8-14__window_3",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_3__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 9,
+   "span_length_m": 0.375,
+   "contact_uv": [
+    468.17,
+    216.89
+   ],
+   "object_window": {
+    "center_uv": [
+     468.0,
+     217.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_4__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_4",
+   "episode": "livingroom_1__8-14__window_4",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open middle drawer of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.27,
+   "contact_uv": [
+    327.07,
+    192.94
+   ],
+   "object_window": {
+    "center_uv": [
+     327.0,
+     193.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_4__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_4",
+   "episode": "livingroom_1__8-14__window_4",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_4__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 9,
+   "span_length_m": 0.322,
+   "contact_uv": [
+    320.86,
+    188.7
+   ],
+   "object_window": {
+    "center_uv": [
+     321.0,
+     189.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_4__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_4",
+   "episode": "livingroom_1__8-14__window_4",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_4__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 2,
+   "end_i": 9,
+   "span_length_m": 0.322,
+   "contact_uv": [
+    432.77,
+    235.12
+   ],
+   "object_window": {
+    "center_uv": [
+     433.0,
+     235.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_5__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_5",
+   "episode": "livingroom_1__8-14__window_5",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close middle drawer of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.277,
+   "contact_uv": [
+    269.72,
+    204.66
+   ],
+   "object_window": {
+    "center_uv": [
+     270.0,
+     205.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_5__gripper__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_5",
+   "episode": "livingroom_1__8-14__window_5",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close middle drawer of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.277,
+   "contact_uv": [
+    487.1,
+    239.22
+   ],
+   "object_window": {
+    "center_uv": [
+     487.0,
+     239.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_6__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_6",
+   "episode": "livingroom_1__8-14__window_6",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open bottom drawer of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.278,
+   "contact_uv": [
+    328.2,
+    254.75
+   ],
+   "object_window": {
+    "center_uv": [
+     328.0,
+     255.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_6__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_6",
+   "episode": "livingroom_1__8-14__window_6",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_6__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 9,
+   "span_length_m": 0.346,
+   "contact_uv": [
+    271.23,
+    235.71
+   ],
+   "object_window": {
+    "center_uv": [
+     271.0,
+     236.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_6__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_6",
+   "episode": "livingroom_1__8-14__window_6",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_6__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 9,
+   "span_length_m": 0.346,
+   "contact_uv": [
+    356.65,
+    296.71
+   ],
+   "object_window": {
+    "center_uv": [
+     357.0,
+     297.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_7__gripper__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_7",
+   "episode": "livingroom_1__8-14__window_7",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close bottom drawer of left cabinet",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.283,
+   "contact_uv": [
+    216.97,
+    242.57
+   ],
+   "object_window": {
+    "center_uv": [
+     217.0,
+     243.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_7__hand__iphone_1": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_7",
+   "episode": "livingroom_1__8-14__window_7",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_7__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 7,
+   "end_i": 10,
+   "span_length_m": 0.455,
+   "contact_uv": [
+    325.13,
+    256.41
+   ],
+   "object_window": {
+    "center_uv": [
+     325.0,
+     256.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_7__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_7",
+   "episode": "livingroom_1__8-14__window_7",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "drawer",
+   "object_source": "prompt",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": "livingroom_1__8-14__window_7__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 7,
+   "end_i": 10,
+   "span_length_m": 0.455,
+   "contact_uv": [
+    427.53,
+    285.28
+   ],
+   "object_window": {
+    "center_uv": [
+     428.0,
+     285.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "livingroom_1__8-14__window_9__hand__iphone_2": {
+   "scene": "livingroom_1",
+   "trial": "8-14",
+   "window": "window_9",
+   "episode": "livingroom_1__8-14__window_9",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "unseen_scene",
+   "object": "cupboard door",
+   "object_source": "visual check",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 5,
+   "span_length_m": 0.363,
+   "contact_uv": [
+    263.4,
+    215.82
+   ],
+   "object_window": {
+    "center_uv": [
+     263.0,
+     216.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_0__gripper__iphone_1": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "oven_2__1-5__window_0",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open center top-right oven",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.486,
+   "contact_uv": [
+    238.99,
+    180.58
+   ],
+   "object_window": {
+    "center_uv": [
+     239.0,
+     181.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_0__hand__iphone_2": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_0",
+   "episode": "oven_2__1-5__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "oven_2__1-5__window_0__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 11,
+   "span_length_m": 0.483,
+   "contact_uv": [
+    156.08,
+    130.23
+   ],
+   "object_window": {
+    "center_uv": [
+     156.0,
+     130.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_1__hand__iphone_1": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_1",
+   "episode": "oven_2__1-5__window_1",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "visual check",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 7,
+   "span_length_m": 0.492,
+   "contact_uv": [
+    210.62,
+    221.99
+   ],
+   "object_window": {
+    "center_uv": [
+     211.0,
+     222.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_1__hand__iphone_2": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_1",
+   "episode": "oven_2__1-5__window_1",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "visual check",
+   "action": "close",
+   "prompt": "close",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 7,
+   "span_length_m": 0.492,
+   "contact_uv": [
+    214.43,
+    214.37
+   ],
+   "object_window": {
+    "center_uv": [
+     214.0,
+     214.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_2__gripper__iphone_1": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_2",
+   "episode": "oven_2__1-5__window_2",
+   "embodiment": "gripper",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open center middle-right oven",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.472,
+   "contact_uv": [
+    245.05,
+    269.59
+   ],
+   "object_window": {
+    "center_uv": [
+     245.0,
+     270.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_2__gripper__iphone_2": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_2",
+   "episode": "oven_2__1-5__window_2",
+   "embodiment": "gripper",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open center middle-right oven",
+   "measured_force": true,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 15,
+   "span_length_m": 0.472,
+   "contact_uv": [
+    211.03,
+    373.78
+   ],
+   "object_window": {
+    "center_uv": [
+     211.0,
+     352.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_2__hand__iphone_1": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_2",
+   "episode": "oven_2__1-5__window_2",
+   "embodiment": "hand",
+   "camera": "iphone_1",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "oven_2__1-5__window_2__gripper__iphone_1",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 3,
+   "span_length_m": 0.531,
+   "contact_uv": [
+    160.57,
+    260.66
+   ],
+   "object_window": {
+    "center_uv": [
+     161.0,
+     261.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  },
+  "oven_2__1-5__window_2__hand__iphone_2": {
+   "scene": "oven_2",
+   "trial": "1-5",
+   "window": "window_2",
+   "episode": "oven_2__1-5__window_2",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "oven door",
+   "object_source": "prompt",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": "oven_2__1-5__window_2__gripper__iphone_2",
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 0,
+   "end_i": 3,
+   "span_length_m": 0.531,
+   "contact_uv": [
+    295.8,
+    293.59
+   ],
+   "object_window": {
+    "center_uv": [
+     296.0,
+     294.0
+    ],
+    "half_extents_px": [
+     143.0,
+     143.0
+    ]
+   }
+  },
+  "wardrobe_1__1-16__window_0__hand__iphone_2": {
+   "scene": "wardrobe_1",
+   "trial": "1-16",
+   "window": "window_0",
+   "episode": "wardrobe_1__1-16__window_0",
+   "embodiment": "hand",
+   "camera": "iphone_2",
+   "split": "val",
+   "partition": "held_out_interaction",
+   "object": "cupboard door",
+   "object_source": "visual check",
+   "action": "open",
+   "prompt": "open",
+   "measured_force": false,
+   "paired_gripper": null,
+   "filter_label": "PASS",
+   "visibility": "visible",
+   "start_i": 3,
+   "end_i": 9,
+   "span_length_m": 0.743,
+   "contact_uv": [
+    382.3,
+    16.75
+   ],
+   "object_window": {
+    "center_uv": [
+     382.0,
+     128.0
+    ],
+    "half_extents_px": [
+     128.0,
+     128.0
+    ]
+   }
+  }
+ }
+}

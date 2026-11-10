@@ -1,0 +1,200 @@
+{
+ "bathroom_2__1-5__window_0": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 5,
+  "end": "capped"
+ },
+ "bathroom_2__1-5__window_2": {
+  "grip_i": 6,
+  "start": "cut",
+  "end_i": 7,
+  "end": "object_stop"
+ },
+ "bedroom_1__1-8__window_0": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 10,
+  "end": "object_stop"
+ },
+ "bedroom_6__1-5__window_0": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 6,
+  "end": "capped"
+ },
+ "bedroom_8__1-6__window_1": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 3,
+  "end": "object_stop"
+ },
+ "fridge_1__1-4__window_0": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 10,
+  "end": "capped"
+ },
+ "fridge_1__1-4__window_1": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 8,
+  "end": "capped"
+ },
+ "kitchen_15__1-11__window_14": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 5,
+  "end": "capped"
+ },
+ "kitchen_15__1-11__window_15": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 5,
+  "end": "capped"
+ },
+ "kitchen_15__1-11__window_18": {
+  "grip_i": 9,
+  "start": "cut",
+  "end_i": 12,
+  "end": "capped"
+ },
+ "kitchen_15__12-26__window_0": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 11,
+  "end": "settle"
+ },
+ "kitchen_15__12-26__window_14": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 6,
+  "end": "capped"
+ },
+ "kitchen_15__12-26__window_15": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 7,
+  "end": "capped"
+ },
+ "kitchen_15__12-26__window_18": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 8,
+  "end": "capped"
+ },
+ "kitchen_7__1-3-5-7-9__window_7": {
+  "grip_i": 3,
+  "start": "cut",
+  "end_i": 9,
+  "end": "capped"
+ },
+ "livingroom_1__1-7__window_0": {
+  "grip_i": 8,
+  "start": "cut",
+  "end_i": 12,
+  "end": "capped"
+ },
+ "livingroom_1__1-7__window_1": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 5,
+  "end": "capped"
+ },
+ "livingroom_1__1-7__window_10": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 5,
+  "end": "capped"
+ },
+ "livingroom_1__1-7__window_2": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 12,
+  "end": "capped"
+ },
+ "livingroom_1__1-7__window_3": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 9,
+  "end": "object_stop"
+ },
+ "livingroom_1__1-7__window_5": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 8,
+  "end": "capped"
+ },
+ "livingroom_1__1-7__window_6": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 6,
+  "end": "object_stop"
+ },
+ "livingroom_1__8-14__window_0": {
+  "grip_i": 3,
+  "start": "cut",
+  "end_i": 7,
+  "end": "object_stop"
+ },
+ "livingroom_1__8-14__window_1": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 5,
+  "end": "object_stop"
+ },
+ "livingroom_1__8-14__window_3": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 10,
+  "end": "capped"
+ },
+ "livingroom_1__8-14__window_4": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 9,
+  "end": "capped"
+ },
+ "livingroom_1__8-14__window_5": {
+  "grip_i": 9,
+  "start": "cut",
+  "end_i": 10,
+  "end": "settle"
+ },
+ "livingroom_1__8-14__window_6": {
+  "grip_i": 3,
+  "start": "cut",
+  "end_i": 9,
+  "end": "settle"
+ },
+ "livingroom_1__8-14__window_7": {
+  "grip_i": 7,
+  "start": "cut",
+  "end_i": 10,
+  "end": "capped"
+ },
+ "oven_2__1-5__window_0": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 6,
+  "end": "capped"
+ },
+ "oven_2__1-5__window_1": {
+  "grip_i": 0,
+  "start": "at_grip",
+  "end_i": 7,
+  "end": "capped"
+ },
+ "oven_2__1-5__window_2": {
+  "grip_i": 0,
+  "start": "object_moving_at_start",
+  "end_i": 3,
+  "end": "capped"
+ },
+ "wardrobe_1__1-16__window_0": {
+  "grip_i": 3,
+  "start": "cut",
+  "end_i": 9,
+  "end": "capped"
+ }
+}
